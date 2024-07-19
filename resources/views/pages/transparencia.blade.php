@@ -14,7 +14,7 @@
 
             @foreach ($dados as $item)
                 <div class="lg:w-4/5 w-full bg-white mx-auto my-10">
-                    <div class="flex flex-col px-14 py-4 lg:gap-6 gap-4 text-base">
+                    <div class="flex flex-col px-14 py-8 lg:gap-6 gap-4 lg:text-base text-sm">
                         <div class="text-center">
                             <h1 class="lg:text-4xl text-xl">SERVIÇO PROMOCIONAL NOSSA SENHORA APARECIDA</h1>
                         </div>
@@ -48,7 +48,7 @@
                             <p><b>Data Fim:</b> {{ date('d/m/Y', strtotime($item->dataFim))}}</p>
                         </div>
 
-                        <div class="w-full text-tertiary font-black flex justify-between">
+                        <div class="w-full text-tertiary font-black flex lg:flex-row flex-col gap-4 justify-between">
                             <a href="{{asset('storage/'.$item->termo)}}">Termo de Colaboração</a>
                             <a href="{{asset('storage/'.$item->Plano)}}">Plano de Trabalho</a>
                             <a href="{{asset('storage/'.$item->aditivo)}}">Termo Aditivo</a>
