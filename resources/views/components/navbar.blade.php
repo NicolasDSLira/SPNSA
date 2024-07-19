@@ -101,8 +101,11 @@
                 </li>
 
                 <li>
-                    <a href="#"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-tertiary md:p-0">Agenda</a>
+                    <a href="{{route('agenda')}}"
+                    @if (Route::is('agenda')) class="block py-2 px-3 text-white bg-tertiary rounded md:bg-transparent md:text-tertiary md:p-0 "
+                    aria-current="page"
+                @else
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-800 md:p-0 " @endif>Agenda</a>
                 </li>
 
                 <li>

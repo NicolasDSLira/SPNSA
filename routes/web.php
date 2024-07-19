@@ -58,3 +58,11 @@ Route::get(
     '/Transparência',
     [indexController::class, 'transparencia']
 )->name('transparencia');
+
+
+Route::get(
+    '/Agenda',
+    function () {
+        return view('pages.agenda');
+    }
+)->name('agenda');
