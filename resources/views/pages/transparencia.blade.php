@@ -49,9 +49,9 @@
                         </div>
 
                         <div class="w-full text-tertiary font-black flex justify-between">
-                            <a href="">Termo de Colaboração</a>
-                            <a href="">Plano de Trabalho</a>
-                            <a href="">Termo Aditivo</a>
+                            <a href="{{asset('storage/'.$item->termo)}}">Termo de Colaboração</a>
+                            <a href="{{asset('storage/'.$item->Plano)}}">Plano de Trabalho</a>
+                            <a href="{{asset('storage/'.$item->aditivo)}}">Termo Aditivo</a>
                         </div>
                     </div>
                 </div>
