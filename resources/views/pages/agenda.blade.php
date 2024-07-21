@@ -21,10 +21,18 @@
 
 
         </section>
-        <aside class="lg:w-1/4 border-2 border-main">
-            <iframe class="w-auto lg:min-h-screen h-96" width="320" height="auto"
-                src="https://www.instagram.com/servipromocional/embed/" frameborder="0"></iframe>
 
-        </aside>
+
+        <div class="relative mx-auto border-main bg-main border-[14px] rounded-xl h-[600px] w-[300px] shadow-xl">
+            <div class="w-[148px] h-[18px] bg-secondary top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+            <div class="h-[32px] w-[3px] bg-tertiary absolute -start-[17px] top-[72px] rounded-s-lg"></div>
+            <div class="h-[46px] w-[3px] bg-tertiary absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+            <div class="h-[46px] w-[3px] bg-tertiary absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+            <div class="h-[64px] w-[3px] bg-tertiary absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+            <div class="rounded-xl overflow-hidden w-[272px] h-[572px] bg-white">
+            <iframe class="w-[290px] lg:min-h-screen h-96" width="290" height="auto"
+                src="https://www.instagram.com/servipromocional/embed/" frameborder="0"></iframe>
+            </div>
+        </div>
     </div>
 </x-layout>
