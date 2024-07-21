@@ -62,7 +62,5 @@ Route::get(
 
 Route::get(
     '/Agenda',
-    function () {
-        return view('pages.agenda');
-    }
+    [indexController::class, 'agenda']
 )->name('agenda');

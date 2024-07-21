@@ -88,7 +88,7 @@
         </div>
         <div class="lg:w-2/4 space-y-10">
             <p class="text-sm lg:text-base">Quer ficar por dentro de todas as atividades e eventos que temos organizado? Não perca mais nenhum detalhe! Acesse agora a nossa agenda e descubra como fazer parte das iniciativas que estão transformando vidas.</p>
-            <a href="" type="button" class="block w-fit mx-auto rounded-xl text-sm lg:text-base text-white font-bold shadow-xl hover:shadow-md bg-tertiary px-10 py-6">Confira nossa agenda</a>
+            <a href="{{route('agenda')}}" type="button" class="block w-fit mx-auto rounded-xl text-sm lg:text-base text-white font-bold shadow-xl hover:shadow-md bg-tertiary px-10 py-6">Confira nossa agenda</a>
         </div>
     </div>
 
