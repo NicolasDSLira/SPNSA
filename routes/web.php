@@ -64,3 +64,15 @@ Route::get(
     '/Agenda',
     [indexController::class, 'agenda']
 )->name('agenda');
+
+
+Route::get(
+    '/Contato',
+    function (){
+        return view('pages.contato');
+})->name('contato');
+
+Route::post(
+    '/Contato',
+    [indexController::class, 'send']
+)->name('contato.send');

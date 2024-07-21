@@ -84,7 +84,7 @@
                 <a class="block font-black" href="https://g.co/kgs/aV2mq9c">Rua Abílio Leite Guimarães, 35 – Jardim São João – Ferraz de Vasconcelos / SP - CEP: 08545-200</a>
             </div>
             <div class="mt-10 flex lg:flex-row flex-col justify-between items-center gap-6 lg:gap-16">
-                <a href="mailto:ctn@servproaparecida.org.br" class="lg:w-2/4 w-full bg-tertiary text-center  shadow-xl hover:shadow-md hover:bg-red-700 hover:border-red-700 transition py-6 border-2 border-tertiary text-white font-semibold">Parceria@servproaparecida.org.br</a>
+                <a href="mailto:ctn@servproaparecida.org.br" class="lg:w-2/4 w-full bg-tertiary text-center  shadow-xl hover:shadow-md hover:bg-red-700 hover:border-red-700 transition py-6 border-2 border-tertiary text-white font-semibold">ctn@servproaparecida.org.br</a>
                 <a href="tel:+551146767122" class="flex justify-center gap-4 border-2 border-tertiary hover:border-red-800 shadow-xl hover:shadow-md lg:w-2/4 w-full py-6 transition">
                     <img src="{{asset('/assets/imagem/icons/phone.svg')}}" alt="phone" class="w-6">
                     +55 11 4676-7122
