@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="w-full mt-4">
-            <a href=""
+            <a href="{{route('history')}}"
                 class="block w-fit px-10 py-6 bg-tertiary text-white mx-auto rounded-xl shadow-5-strong hover:bg-red-800 transition">Conheça
                 nossa História</a>
         </div>

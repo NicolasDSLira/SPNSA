@@ -24,6 +24,12 @@ Route::get(
     [indexController::class, 'about']
 )->name('about');
 
+
+Route::get(
+    '/Historia',
+    [indexController::class, 'history']
+)->name('history');
+
 Route::get(
     '/Ajude/Doacao',
     function () {

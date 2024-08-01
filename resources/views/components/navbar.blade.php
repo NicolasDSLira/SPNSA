@@ -1,8 +1,8 @@
-<nav class="bg-neutral-50 border border-neutral-10  w-full">
+<nav class="bg-neutral-50 border border-neutral-10 sticky  top-0 z-50 w-full">
     <div class="max-w-screen-xl flex h-[100px] flex-wrap items-center justify-around mx-auto p-4">
         {{-- imagem --}}
         <a href="{{ route('index') }}" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="{{ asset('/assets/imagem/logo.png') }}" class="h-[80px]" alt="SPNSA Logo" />
+            <img src="{{ asset('/assets/imagem/logo.png') }}" class="h-[60px]" alt="SPNSA Logo" />
         </a>
         {{-- fim imagem --}}
 

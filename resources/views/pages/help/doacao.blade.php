@@ -18,7 +18,7 @@
             <div class="lg:w-2/4 space-y-6">
                 <img src="{{asset('/assets/imagem/bancos/bb.webp')}}" alt="Banco do Brasil" class="h-28 mx-auto">
                 <div class="flex justify-evenly font-bold">
-                    <p>Agência 2062-1</p>
+                    <p>Agência 7021-1</p>
                     <p>C/C 30.105-1</p>
                 </div>
             </div>
